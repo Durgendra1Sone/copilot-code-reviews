@@ -1,3 +1,15 @@
+/* Announcement Banner Styles */
+#announcement-banner {
+  background: #ffd700;
+  color: #222;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 1.1em;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: relative;
+  z-index: 1000;
+}
 /* Color palette */
 :root {
   /* Primary colors */
@@ -663,4 +675,12 @@ footer {
 
 #logout-button:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.announcement-banner {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
 }
